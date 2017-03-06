@@ -12,3 +12,6 @@ class Test_Prime_Numbers(unittest.TestCase):
 	def test_if_number_is_not_equal_to_two(self):
 		self.assertNotEqual(7,2)
 
+	def test_if_it_does_not_generate_all_prime_numbers(self):
+		result = prime_numbers(5)
+		self.assertEqual(result, [2,3])
