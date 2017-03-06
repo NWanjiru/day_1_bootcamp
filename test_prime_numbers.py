@@ -6,3 +6,6 @@ class Test_Prime_Numbers(unittest.TestCase):
 		result = prime_numbers('mambo')
 		self.assertEqual(result, 'This is not a number!')
 
+	def test_if_number_is_divisible_by_2(self):
+		self.assertTrue(4%2 == 0,0)
+
