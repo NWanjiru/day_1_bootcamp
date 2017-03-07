@@ -1,6 +1,7 @@
 import unittest
 from day_1_repo.prime_numbers import prime_numbers
 class Test_Prime_Numbers(unittest.TestCase):
+	#Test whether prime_numbers() generates prime numbers
 
 	def test_if_number_is_not_an_int(self):
 		#Test if entered value is a string
