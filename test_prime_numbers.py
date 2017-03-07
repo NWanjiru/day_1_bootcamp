@@ -22,6 +22,6 @@ class Test_Prime_Numbers(unittest.TestCase):
 		self.assertNotEqual(7,2)
 
 	def test_if_it_does_not_generate_all_odd_numbers(self):
-		#Test if when given a value, function generates all prime numbers in the range
+		#Test if when given a value, function generates all odd numbers in the range
 		result = prime_numbers(5)
 		self.assertEqual(result, [2,3,5])
