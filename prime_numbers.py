@@ -1,13 +1,11 @@
 def prime_numbers(n):
 	prime = []
 	if isinstance(n, int):
-		if n ==2 or n % 2 != 0:
-			for i in range(n):
-				j = i - 1
-				if i % j != 0:
-					prime.append(i)
-				j -= 1
-
-			return prime
+		for i in range(1,n+1):
+			if i <=1:
+				pass
+			elif i == 2 or i % 2 != 0:
+				prime.append(i)
+		return prime
 	else:
 		return 'This is not a number!'
