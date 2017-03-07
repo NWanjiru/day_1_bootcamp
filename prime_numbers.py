@@ -1,6 +1,6 @@
 def prime_numbers(n):
 	prime = []
-	if isinstance(n, int):
+	if type(n) == type(int):
 		for i in range(1,n+1):
 			if i <=1:
 				pass
