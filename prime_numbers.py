@@ -1,6 +1,5 @@
 def prime_numbers(n):
-	#Check whether n is a prime number 
-	#Generate a list of prime numbers between 0 and n
+	"""Generate a list of prime numbers between 0 and n"""
 	prime = []
 	if type(n) is int:
 		#Check if the element n is an integer
