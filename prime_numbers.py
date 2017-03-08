@@ -7,7 +7,10 @@ def prime_numbers(n):
 			if i <=1:
 				pass
 			elif i == 2 or i % 2 != 0:
-				prime.append(i)
+				if i <= 3 or i % 3 != 0:
+					if i <= 5 or i % 5 !=0:
+						if i <= 7 or i % 7 !=0:
+							prime.append(i)
 		return prime
 	else:
 		return 'This is not a number!'
