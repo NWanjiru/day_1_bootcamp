@@ -26,4 +26,4 @@ class Test_Prime_Numbers(unittest.TestCase):
 		#Check that the output lists only prime numbers
 		""" 15 is divisible by 3 and 5, therefore not a prime number"""
 		result = prime_numbers(15)
-		self.assertFalse(result, [2, 3, 5, 7, 9, 11, 13, 15])
+		self.assertTrue(result, [2, 3, 5, 7, 9, 11, 13])
